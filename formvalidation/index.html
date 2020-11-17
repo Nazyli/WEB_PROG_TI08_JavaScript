@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation - Evry Nazyli Ciptanto</title>
+    <link href="assets/style.css" rel="stylesheet" media="all">
+    <script src="assets/script.js"></script>
+</head>
+<body class="bg">
+    <div class="box">
+            <h2 class="title">Form Validation</h2>
+            <hr class="line" />
+            <div class="row">
+                <div class="col">
+                    <div class="input-group">
+                        <label class="label">Nama Pelanggan</label>
+                        <input class="input" type="text" name="nama_pelanggan" id="nama_pelanggan" />
+                        <label class="message" id="np"></label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <label class="label">Email</label>
+                        <input class="input" type="email" name="email" id="email" />
+                        <label class="message" id="pesanEmail"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="input-group">
+                        <label class="label">Jam Keberangkatan</label>
+                        <input class="input" type="text" name="jam" id="jam" />
+                        <label class="message" id="pesanJam"></label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <label class="label">Tujuan Keberangkatan</label>
+                        <input class="input" type="text" name="tujuan" id="tujuan" />
+                        <label class="message" id="pesanTujuan"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col alone">
+                    <div class="input-group">
+                        <label class="label">Jumlah Tiket</label>
+                        <input class="input" type="text" name="jumlah" id="jumlah" />
+                        <label class="message" id="pesanJumlah"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                    <div class="input-group">
+                        <input onclick="form_validation()" type="submit" name="sumbit" id="submit" value="Login" class="input" />
+                        <input type="reset" name="reset" id="reset" value="Reset" class="input" />
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+
+</html>
+
+
+<!-- 
+Nama   : Evry Nazyli Ciptanto
+Prodi  : Teknik Informatika - TI08
+ -->

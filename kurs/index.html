@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Kurs - Evry Nazyli Ciptanto</title>
+     <link href="assets/style.css" rel="stylesheet" media="all">
+    <script src="assets/script.js"></script>
+ </head>
+ 
+ <body class="bg">
+     <form>
+         <div class="box">
+             <h2 class="title">Kurs Rupiah - Mata Uang Asing</h2>
+             <hr class="line"/>
+             <div class="row">
+                 <div class="col">
+                     <div class="input-group">
+                         <label class="label">Kurs</label>
+                         <input class="input" type="text" name="nilai" id="nilai" onchange="kurshitung()" />
+                     </div>
+                 </div>
+                 <div class="col">
+                     <div class="input-group">
+                         <label class="label">Valas</label>
+                         <select name="valas" id="valas" class="input select" onchange="kurshitung()">
+                            <option value="0">Dollar US</option>
+                            <option value="1">Dollar Singapura</option>
+                            <option value="2">Ringgit Malaysia</option>
+                            <option value="3">Yen Jepang</option>
+                            <option value="4">Euro</option>
+                            <option value="5">Riyal Arap Saudi</option>
+                         </select>
+                     </div>
+                 </div>
+                 <div class="col">
+                    <div class="input-group">
+                        <label class="label">Nilai Rupiah</label>
+                        <input class="input" type="text" name="hasil" id="hasil" readonly/>
+                    </div>
+                </div>
+             </div>
+             <h3 class="ket" id="textOutput"></h3>
+         </div>
+     </form>
+ </body>
+ </html>
+
+
+ <!-- 
+Nama   : Evry Nazyli Ciptanto
+Prodi  : Teknik Informatika - TI08
+ -->
